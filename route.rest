@@ -1,0 +1,41 @@
+POST http://localhost:3000/bosta
+Content-Type : application/json
+{
+    "name": "Facebook",
+     "url" : "https://www.facebook.com/",
+     "protocol" : "HTTPS",
+     "ignoreSSL" : true
+}
+
+###
+
+GET http://localhost:3000/bosta
+
+###
+GET http://localhost:3000/bosta/64e0167a898493d7f4f12856
+
+###
+
+DELETE http://localhost:3000/bosta/64e0167a898493d7f4f12856
+
+
+###
+
+POST http://localhost:3000/user/signup
+Content-Type : application/json
+
+{
+    "email": "cherry.ezz@gmail.com",
+     "password": "test123"
+}
+
+
+###
+
+POST http://localhost:3000/user/signup
+Content-Type : application/json
+
+{
+    "email": "nerimane.elrefai@example.com",
+     "password": "test1234"
+}
